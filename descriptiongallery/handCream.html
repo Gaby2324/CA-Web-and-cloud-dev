@@ -32,47 +32,58 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        <header>
-            <nav>
-                <div class="narrow-menu-outer">
-                    <div class="narrow-menu">
-                        <span id="narrow-menu-title">
-                            <i class="fas fa-bars"></i>
-                        </span>
-                        <ul class="nav-links">
-                            <a href="../index.html">
-                                <li class="nav-link-buttons">Home</li>
-                            </a>
-                            <a href="../services/index.html">
-                                <li class="nav-link-buttons">Services</li>
-                            </a>
-                            <a href="../team/index.html">
-                                <li class="nav-link-buttons">Our team</li>
-                            </a>
-                            <a href="../book/index.html">
-                                <li class="nav-link-buttons">Booking</li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-
-                <ul class="nav-links hide-nav">
-                    <a href="../index.html">
-                        <li class="nav-link-active">Home</li>
-                    </a>
-                    <a href="../services/index.html">
-                        <li class="nav-link-buttons">Services</li>
-                    </a>
-                    <a href="../team/index.html">
-                        <li class="nav-link-buttons">Our team</li>
-                    </a>
-                    <a href="../book/index.html">
-                        <li class="nav-link-buttons">Booking</li>
-                    </a>
-                </ul>
-            </nav>
-        </header>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-light-pink">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../services/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../itemcatalog/catalogue.html">Shop</a>
+            </li>
+        
+             <li class="nav-item">
+              <a class="nav-link" href="../book/booking.html">Booking</a>
+            </li>
+                <li class="nav-item">
+              <a class="nav-link" href="../team/team.html">Our team</a>
+            </li>
+          </ul>
+        </div>
+    
+        <form class="form-inline my-2 my-lg-0">
+          <div class="input-group">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+          </div>
+        </form>
+    
+        <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Hello, sign in
+          </a>
+    
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="../login/login.html">Sign in</a>
+        
+          </div>
+        </div>
+    
+        <div class="basket">
+          <button class="basket-btn">
+            <span class="basket-icon">&#x1F6D2;</span> <!-- FontAwesome basket icon -->
+            Basket
+          </button>
+        </div>
+      </nav>
         <div class="container mt-5">
             <h1 class="mb-4">Hand Cream</h1>
             <div class="row">
@@ -130,7 +141,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <footer>
             <ul class="footer-buttons">
         
